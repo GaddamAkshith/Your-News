@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: white !important;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #ffffff;
+}
+
+body.dark-mode h1 {
+  background-color: #424242 !important;
+  color: #ffffff !important;
+}
+
+::-webkit-scrollbar {
+  width: 3.5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #464b50;
+}
