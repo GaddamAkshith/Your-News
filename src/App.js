@@ -5,7 +5,7 @@ import News from "./components/News/News";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { router } from "./config/config";
 import Search from "./components/Search/Search";
-import Footer from "./components/Images/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 import { useSelector } from "react-redux";
 
 
